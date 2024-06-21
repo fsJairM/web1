@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Jair Mosquera Sinisterra BootCamp Java Trainee -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/user/favicon-32x32.png" type="image/x-icon" />
+    <title>Jair MS | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://kit.fontawesome.com/1eb8db9042.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ************************Header******************************** -->
+    <div class="container" id="header">
+        <!-- barra de navegacion con logo -->
+        <nav id="navbar">
+            <a href="" class="profile-logo">
+                <span class="logo-name"><span>&lt;</span>Jair Mosquera Sinisterra <span>/&gt;</span></span>
+            </a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div>
+                <span id="profession"></span>
+            </div>
+            <h1>Hi, I'm <span>Jair Mosquera Sinisterra</span><br />Software Developer Trainee</h1>
+        </div>
+    </div>
+    <!-- ***********************About************************** -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/user/16011-268207201_large.mp4" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>
+                        ¡Hola! ¡Es un placer conocerte! <br>
+                        Encantado de verte aquí. Soy un estudiante de Programacion, autodicdata y entusiasta
+                        de la tecnologia;
+                        tratando de hacerme un lugar en este maravilloso mundo. Me encantaria rodearme de gente
+                        estupenda y trabajar en
+                        proyectos que tienen la oportunidad de generar un impacto a gran escala.
+                    </p>
+                    <!-- agregando pestañas-->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('technicals')">
+                            Technical Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('cores')">Soft Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="technicals">
+                        <ul>
+                            <li><span>Web Development</span><br />Java Full Stack Development</li>
+                            <li><span>IT and MDA support</span><br />Especialista en soporte técnico de TI con
+                                experiencia en resolución de problemas de hardware <br>
+                                y software, configuración y mantenimiento de redes, instalación y actualización de
+                                sistemas operativos, asistencia a usuarios finales, y monitoreo de la seguridad
+                                informática.
+                            </li>
+                            <li><span>Hardware Skills</span><br />Poseo una gran habilidad en la reparación y
+                                mantenimiento de hardware, demostrada a través de la <br>
+                                eficiente resolución de problemas técnicos y la optimización de equipos.</li>
+                            <li><span>UBUNTU SERVERS</span><br />Conocimientos básicos en la administración de Ubuntu
+                                Server, incluyendo instalación y configuración <br>
+                                de servicios, gestión de usuarios y permisos, y actualizaciones del sistema.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="cores">
+                        <ul>
+                            <li><span>Teamwork</span><br />Excelentes habilidades para trabajar en equipo, colaborando
+                                eficazmente con colegas para alcanzar <br>
+                                objetivos comunes y asegurar la continuidad del Desarrollo y del soporte técnico.</li>
+                            <li>
+                                <span>Motivation</span><br />Altamente motivado, siempre buscando mejorar mis
+                                habilidades y contribuir al éxito del equipo y de <br>
+                                la organización.
+                            </li>
+                            <li>
+                                <span>Patience</span><br />Siempre estoy tranquilo en todas las situaciones.
+                            </li>
+                            <li>
+                                <span>Coding Enthusiast</span><br />Me encanta Programar y encontrar soluciones a los desafios que se presentan.
+
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2024 - 2024</span><br />BootCamp Java FullStack Trainee Implementado por Sence en la Universidad de la Republica.
+                            </li>
+                            <li>
+                                <span>1999 - 2002</span><br />Tecnología en Administración del Ensamble y Mantenimiento de Computadores y Redes. <br>
+                                SENA-Colombia.
+                            </li>
+                            <li>
+                                <span>1997 - 1999</span><br />
+                                Bachiller Técnico en Sistemas Informáticos, MONSEÑOR RAMON ARCILA (COLOMBIA). 
+                                
+                            </li>
+                            <li>
+                                <span>1986 - 1996</span><br />Enseñanza basica y Preescolar, Monseñor Ramon Arcila, colombia.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***************************Services***************************** -->
+    <div id="experience">
+        <div class="container">
+            <h2 class="sub-title">Experience</h2>
+            <div class="intern-list">
+                <a href="https://www.linkedin.com/posts/anuj-verma-67493125a_webdevelopment-internshipcompleted-coderscave-activity-7116622606983716864-EvW4?utm_source=share&utm_medium=member_desktop"
+                    target="_blank">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Software developments.</h3>
+                        <p>Trabajé en varios proyectos de desarrollo web, como un clon de Netflix, un
+                            un acortador de enlaces, un editor de código en línea y un sitio web de cartera personalizado, lo que demuestra<br>
+                            mis habilidades de diseño y desarrollo web. <br>
+                            Recibí una Carta de Recomendación (LOR) después de completar una pasantía de un mes por Codes
+                            Cave y AICTE, mostrando mi dedicación al aprendizaje y mejora de mis habilidades. <br>
+                            Aprendí a desarrollar aplicaciones web utilizando tecnologías tanto front-end como back-end,
+                            semejante
+                            como HTML, CSS, JavaScript y otros marcos web.</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/posts/anuj-verma-67493125a_ai-ibminternship-learningjourney-activity-7116299161200656386-3Pag?utm_source=share&utm_medium=member_desktop"
+                    target="_blank">
+                    <div>
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>SONDA SA.</h3>
+                        <p> Utilizo sistemas de tickets como Jira para registrar, priorizar y resolver incidentes y solicitudes de usuarios de manera eficiente.
+                            Configuración de Servidores y Terminales Linux: 
+                            Configuro y mantengo servidores y terminales basados en Linux para asegurar su funcionamiento óptimo y seguridad.
+                            Gestiono cuentas de usuario y recursos de red a través del Active Directory de Windows.
+                            Realizo actualizaciones, copias de seguridad y superviso inventarios de activos de TI para prevenir problemas.
+                            Implemento políticas de seguridad, actualizaciones de antivirus y firewalls, y educo a los usuarios sobre prácticas seguras.
+                            Mantengo registros detallados de problemas y soluciones, así como documentación técnica para referencia futura.                          
+                           
+                            </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- *****************Portfolio*********************** -->
+    <div id="projects">
+        <div class="container">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/images/project/bg_1.png" alt="Image of Project 1" />
+                    <div class="layer">
+                        <h3>Cachipún (Piedra, Papel o Tijera)</h3>
+                        <p>
+                            Cachipún, conocido en muchas partes del mundo como "piedra, papel o tijera", es un <br>
+                            juego de manos simple y popular utilizado tanto para entretenimiento como para tomar decisiones de manera aleatoria.
+                        </p>
+                        <a target="_blank" href="https://github.com/fsJairM/Cachipun.2"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/images/project/Ricomida.png" alt="Image of Project 2" />
+                    <div class="layer">
+                        <h3>Website de Comida</h3>
+                        <p>
+                            Una pagina web de muestra como trabajo de la univeridad de lo aprendido en HTML, CSS y JavaScript.
+                        </p>
+                        <a target="_blank" href="https://github.com/fsJairM/Ricomida_001"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/images/project/Screenshot_3.png" alt="Image of Project 3" />
+                    <div class="layer">
+                        <h3>Creacion de Futuro Repositorio</h3>
+                        <p>
+                            Estoy creando el repositorio que sera a futuro el definitivo y ademas de esto creare un blog en el cual hablare de tech.
+                        </p>
+                        <a target="_blank" href="https://github.com/fsJairM/Proyecto_sin-terminar"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/fsJairM?tab=repositories" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- **************************Contact************************ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>fs.jairmosqueras@gmail.com
+                    </p>
+                    <p><i class="fa-solid fa-square-phone"></i>+569 37308388</p>
+                    <div class="social-icons">
+                        <a
+                            href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jair-mosquera-34b47a246/?originalSubdomain=cl" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="./assets/CV-JAIR MOSQUERA SINISTERRA.pdf" download class="btn btn2">Download Curriculum</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Mail" placeholder="Your Email" required />
+                        <input type="number" name="Mobile No." placeholder="Your Mobile Number" required />
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Creado con <i class="fa-solid fa-heart"></i> Jair Mosquera Sinisterra.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<!-- <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script> -->
+
+<script>
+    // llamar a clases y almacenarlas en variables
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    // definir la función opentab que seleccionará una etiqueta particular y ocultará otras.
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            // eliminará este nombre de clase para todos los enlaces de pestañas.
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            // eliminará este nombre de clase para todos los enlaces de pestañas.
+            tabcontent.classList.remove("active-tab");
+        }
+        // agregará un enlace activo y mostrará el color en la pestaña seleccionada
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!-- for hamburger icon -->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<!-- Typed Script -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Configurar e iniciar la animación.! -->
+<script>
+    var typed = new Typed("#profession", {
+        strings: [
+            "Java Full Stack Jr",
+            "Web Developer",
+            "IT Support &",
+            "help desk",
+            "Coder",
+        ],
+        typeSpeed: 50,
+        loop: true,
+    });
+</script>
+
+<!-- input to google form -->
+<script>
+    const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwg1Yuog398FRMGp_J_cTupcJSqJcB77yZ_e_68xkMa6KJACvaQXrajGjHifjb0Gt31/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+                msg.innerHTML =
+                    "Submitted Succesfully<br/>Thank you for contacting, you will get a reply soon.";
+                setTimeout(function () {
+                    msg.innerHTML = "";
+                }, 2000);
+                form.reset();
+            })
+            .catch((error) => console.error("Error!", error.message));
+    });
+</script>
+
+</html>
